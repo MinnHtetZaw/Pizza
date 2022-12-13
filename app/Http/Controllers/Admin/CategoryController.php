@@ -53,7 +53,7 @@ class CategoryController extends Controller
         ];
 
         Category::create($data);
-        return redirect()->route('admin#category')->with(['categorySuccess'=>'Category Added....']);
+        return redirect()->route('admin#category')->with(['categorySuccess'=>'hahahaha Category Added....']);
     }
 
 

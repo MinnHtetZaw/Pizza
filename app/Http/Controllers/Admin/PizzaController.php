@@ -71,11 +71,11 @@ class PizzaController extends Controller
         $data=$this->getPizzaData($request,$fileName);
 
         pizza::create($data);
-        return redirect()->route('admin#pizza')->with(['createSuccess'=>'Pizza Created...']);
+        return redirect()->route('admin#pizza')->with(['createSuccess'=>'hahahahha Pizza Created...']);
 
     }
 
-    // Delete Pizza
+    // Delete Pizza  jsdkfljasdklfjaskldfjlkasd
 
     public function deletePizza($id){
 
