@@ -12,7 +12,7 @@
           <div class="col-12">
             <div class="card">
               <div class="card-header">
-                <span class="fs-4 mt-3 ml-4">Total - {{ $contact->total() }}</span>
+                <span class="fs-4 mt-3 ml-4">Toal - {{ $contact->total() }}</span>
 
                 <div class="card-tools">
 
