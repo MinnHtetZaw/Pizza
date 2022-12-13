@@ -11,7 +11,7 @@
                 <a href="{{ route('admin#pizza') }}" class="text-decoration-none"><div class="mb-4 text-dark"><i class="fa-solid fa-arrow-left"></i> back</div></a>
               <div class="card">
                 <div class="card-header p-2">
-                  <legend class="text-center">Edit Pizza</legend>
+                  <legend class="text-center">Edi Pizza</legend>
                 </div>
                 <div class="my-4 text-center">
                     <img src="{{ asset('uploads/'.$edit->image) }}" class="img-thumbnail "   style="width:200px;height:160px" alt="">
